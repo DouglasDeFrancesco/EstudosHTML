@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="PT-pt">
+<head>
+  <title>Bootstrap </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+
+  <style>
+
+#conteudo{
+
+
+text-align:center;font-weight:bold
+}
+.col p
+{
+  text-align: center;
+}
+
+    #rodape {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      margin: 10px;
+      
+    }
+  </style>
+
+
+
+<body>
+<div id="site" class="container-fluid">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#section1">Douglas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section2">Section 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section3">Section 3</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Trabalhos
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#section41">Link 1</a>
+        <a class="dropdown-item" href="#section42">Link 2</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+<div class="jumbotron text-center" style="margin-bottom:0" id="jumbotron1">
+  <h2>5-Douglas Graça</h2>
+  <p>CSS0154</p>
+</div>
+
+<div class="container mt-3">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+
+      </div>
+
+      <div class="carousel-item">
+        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+      
+      </div>
+    
+      <div class="carousel-item">
+        <img src="ny.jpg" alt="New York" style="width:100%;">
+
+      </div>
+  
+    </div> <!-- fim carousel-inner -->
+  </div><!-- fim id=mycarousel -->
+</div><!-- fim container mt-3 -->
+<div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+
+
+<div id="conteudo">
+  <p>Some of my work</p>
+</div>
+
+<div class="row">
+  <div class="col">
+    <p>figura1</p>
+ <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+  </div>
+<div class="col">
+  <p>figura2</p>
+ <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+</div>
+
+<div class="col">
+  <p>figura3</p>
+  <img src="ny.jpg" alt="New York" style="width:100%;">
+
+  </div>
+</div><!-- fim do row-->
+
+
+  
+
+  <div id="rodape">
+    IEFP-CSS 0154
+  </div>  
+
+
+</div><!-- fim do site-->
+
+</body>
+</html>
